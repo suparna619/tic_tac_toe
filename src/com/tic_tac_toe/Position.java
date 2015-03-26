@@ -2,9 +2,7 @@ package com.tic_tac_toe;
 
 import java.util.Scanner;
 
-/**
- * Created by suparnad on 3/26/2015.
- */
+
 public class Position {
 
     public String askPosition(){
