@@ -25,7 +25,7 @@ public class GameBoard {
     private void winMessage(String playerSymbol, String playerName) {
         if(checkConditionToWin(playerSymbol)){
             System.out.println("***Congratulation "+playerName+" wines***");
-            System.out.println("---Run the app to play again---");
+            System.out.println("  ---Run the app to play again---");
             System.exit(1);
         }
     }
