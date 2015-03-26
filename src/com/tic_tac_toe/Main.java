@@ -39,8 +39,8 @@ public class Main {
         }
 
         public FindPosition invoke() {
-            askPosition askPosition = new askPosition();
-            String positionValue = askPosition.askPosition();
+            Position position = new Position();
+            String positionValue = position.askPosition();
             String[] X_Y_values = positionValue.split(" ");
             x = Integer.parseInt(X_Y_values[0]);
             y = Integer.parseInt(X_Y_values[1]);
